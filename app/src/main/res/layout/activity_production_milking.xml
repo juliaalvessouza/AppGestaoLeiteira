@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Lançamento da Produção"
+        android:textColor="@color/black_light"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Vaca: "
+        android:textColor="@color/black_light"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/textView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/input_nome_cow_qtade_leite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:textColor="@color/black_light"
+        android:textSize="16dp"
+        android:text="Mimosa"
+        app:layout_constraintBottom_toBottomOf="@+id/textView28"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="@+id/textView28" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_qtade_litros_leite_cow"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Digite quantidade de leite "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rGroupProdMilk">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_date_prod_milk"-->
+<!--        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:text="Selecione data produção de leite"-->
+<!--        android:textAlignment="textStart"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black_light"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/input_nome_cow_qtade_leite" />-->
+
+    <Button
+        android:id="@+id/btn_check_prod_leite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ok"
+        app:layout_constraintEnd_toEndOf="@+id/input_qtade_litros_leite_cow"
+        app:layout_constraintStart_toStartOf="@+id/input_qtade_litros_leite_cow"
+        app:layout_constraintTop_toBottomOf="@+id/input_qtade_litros_leite_cow" />
+
+    <RadioGroup
+        android:id="@+id/rGroupProdMilk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/textView28">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Manhã" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Tarde" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

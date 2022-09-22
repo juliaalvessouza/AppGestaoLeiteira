@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_check.xml" value="0.1445" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_medication.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.1445" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_action_save.xml" value="0.1445" />
+        <entry key="app/src/main/res/drawable-anydpi/list.xml" value="0.1445" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_background_two.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-hdpi/custom_text_area_information.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.126" />
+        <entry key="app/src/main/res/drawable/custom_background.xml" value="0.1745" />
+        <entry key="app/src/main/res/drawable/custom_background_two.xml" value="0.108" />
+        <entry key="app/src/main/res/drawable/custom_btn_cadastro.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/custom_button_list.xml" value="0.2415" />
+        <entry key="app/src/main/res/drawable/custom_text_area_information.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1445" />
+        <entry key="app/src/main/res/layout/activity_calf.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_cow.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_death.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_edit_cow.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_edit_reminder.xml" value="0.1621376811594203" />
+        <entry key="app/src/main/res/layout/activity_functions_calf.xml" value="0.15896739130434784" />
+        <entry key="app/src/main/res/layout/activity_list_calf.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_list_cow.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_list_medication.xml" value="0.16032608695652173" />
+        <entry key="app/src/main/res/layout/activity_list_production_milk.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_list_reproduction.xml" value="0.19852941176470587" />
+        <entry key="app/src/main/res/layout/activity_list_weaning.xml" value="0.1621376811594203" />
+        <entry key="app/src/main/res/layout/activity_list_zootechnician.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main_register.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_managment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_medication.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_milking.xml" value="0.22344322344322345" />
+        <entry key="app/src/main/res/layout/activity_privacity.xml" value="0.3421875" />
+        <entry key="app/src/main/res/layout/activity_producao_milk.xml" value="0.3421875" />
+        <entry key="app/src/main/res/layout/activity_production_milk.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/activity_production_milking.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_reminder.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_reproduction.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_sale.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3421875" />
+        <entry key="app/src/main/res/layout/activity_weaning.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_zootechnician.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/app_activity.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dropdown_item.xml" value="0.161231884057971" />
+        <entry key="app/src/main/res/layout/include_reproduction.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/inputsmedication.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/item_card_list_calf.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_card_list_cow.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_card_list_medication.xml" value="0.45075757575757575" />
+        <entry key="app/src/main/res/layout/item_card_list_production_milk.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_card_list_reminder.xml" value="0.4621212121212121" />
+        <entry key="app/src/main/res/layout/item_card_list_reproduction.xml" value="0.4621212121212121" />
+        <entry key="app/src/main/res/layout/item_card_list_weaning.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item_card_list_zootechnician.xml" value="0.32063074901445465" />
+        <entry key="app/src/main/res/layout/item_card_milking.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_list_calf.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/menu_suspenso.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/menususpenso.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/testecmt.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/menu_cancel.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu_new.xml" value="0.165625" />
+        <entry key="app/src/main/res/menu/menu_pdf.xml" value="0.165625" />
+        <entry key="app/src/main/res/menu/menu_save.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/menu_save_reminder.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

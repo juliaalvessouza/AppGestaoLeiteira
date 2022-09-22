@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppVivaLeite.iml" filepath="$PROJECT_DIR$/.idea/modules/AppVivaLeite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AppVivaLeite.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

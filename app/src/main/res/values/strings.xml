@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AppVivaLeite</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="title_main">Clique nas opções abaixo</string>
+    <string name="animal">Nome do animal</string>
+    <string name="title_btn_one">Manutenção de animais</string>
+    <string name="title_btn_two">Medicações</string>
+    <string name="title_btn_three">Reprodução</string>
+    <string name="title_btn_four">Ordenha</string>
+    <string name="title_btn_five">Lembretes</string>
+    <string name="title_btn_six">Zootécnico</string>
+    <string name="title_btn_managment_calf">Bezerros</string>
+    <string name="input_title_brinco_vaca">Brinco da vaca</string>
+    <string name="input_title_data_nascimento">Selecione a data nascimento</string>
+    <string name="input_title_sexo">Sexo</string>
+    <string name="title_cadastro_de_bezerros">Cadastro de bezerros</string>
+    <string name="title_btn_confirma">Confirma</string>
+    <string name="title_btn_cancela">Cancela</string>
+    <string name="title_input_sexo_f">Fêmea</string>
+    <string name="title_input_sexo_m">Macho</string>
+    <string name="title_cadastro_de_vacas">Cadastro de vacas</string>
+    <string name="input_title_nome">Digite o nome</string>
+    <string name="input_title_brinco">Digite número do brinco</string>
+    <string name="input_title_lactacao">Em Lactação?</string>
+    <string name="input_title_sim">Sim</string>
+    <string name="input_title_nao">Não</string>
+    <string name="title_cadastro_de_obitos">Cadastro de óbitos</string>
+    <string name="input_title_data_obito">Selecione a data óbito</string>
+    <string name="title_type_bezerro_death">E Bezerro?</string>
+    <string name="title_logo_um">Leite</string>
+    <string name="title_logo_dois">Viva</string>
+    <string name="input_email">Email</string>
+    <string name="input_senha">Senha</string>
+    <string name="title_btn_entrar">Entrar</string>
+    <string name="title_cadastro">Clique no cadastro</string>
+    <string name="btn_vacas">Vacas</string>
+    <string name="btn_obitos">Óbitos</string>
+    <string name="btn_vendas">Vendas</string>
+    <string name="btn_desmame">Desmame</string>
+    <string name="title_controle_de_medicacoes">Controle de Medicações</string>
+    <string name="input_medicamento">Medicamento em Bezerro(a)?</string>
+    <string name="title_medicamentos_dias">Carência (dias)</string>
+    <string name="title_medicamento_aplicado">Medicamento aplicado</string>
+    <string name="input_data_da_aplicacao">Selecione a data da aplicação</string>
+    <string name="textoum">A presente Pólitica de Privacidade contém informações sobre a coleta, uso e armazenamento dos dados do usuário no aplicativo VivaLeite, com a finalidade de demonstrar transparência quanto ao assunto.</string>
+
+
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btn_list_weaning"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="Desmame"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/weaning"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_reminder"
+        app:layout_constraintStart_toStartOf="@+id/btn_reminder"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reminder" />
+
+    <Button
+        android:id="@+id/btn_calf"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="@string/title_btn_managment_calf"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/calf"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_list_production_milk"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="Produção Leite"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/milk"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_list_weaning"
+        app:layout_constraintStart_toStartOf="@+id/btn_list_weaning"
+        app:layout_constraintTop_toBottomOf="@+id/btn_list_weaning" />
+
+    <Button
+        android:id="@+id/btn_cow"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="@string/btn_vacas"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/cow"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_calf"
+        app:layout_constraintStart_toStartOf="@+id/btn_calf"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calf" />
+
+    <Button
+        android:id="@+id/btn_medication"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="Medicações "
+        android:textColor="@color/black_light"
+        app:icon="@drawable/medication"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_reproduction"
+        app:layout_constraintStart_toStartOf="@+id/btn_reproduction"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reproduction" />
+
+    <Button
+        android:id="@+id/btn_reproduction"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="reproducao"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/cowreproduction"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_milking"
+        app:layout_constraintStart_toStartOf="@+id/btn_milking"
+        app:layout_constraintTop_toBottomOf="@+id/btn_milking"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_milking"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="@string/title_btn_four"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/mmilking"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_cow"
+        app:layout_constraintStart_toStartOf="@+id/btn_cow"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cow" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="lembrete"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/reminders"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_zootechnician"
+        app:layout_constraintStart_toStartOf="@+id/btn_zootechnician"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zootechnician" />
+
+    <Button
+        android:id="@+id/btn_zootechnician"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/btn_cadastro"
+        android:elevation="5dp"
+        android:text="exame zootécnico"
+        android:textColor="@color/black_light"
+        app:icon="@drawable/testzootechnician"
+        app:iconPadding="16dp"
+        app:iconSize="50dp"
+        app:iconTint="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/btn_medication"
+        app:layout_constraintStart_toStartOf="@+id/btn_medication"
+        app:layout_constraintTop_toBottomOf="@+id/btn_medication" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

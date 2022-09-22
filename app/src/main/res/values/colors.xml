@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_200">#5FC362</color>
+    <color name="green_500">#669a68</color>
+    <color name="green_700">#3E8A42</color>
+    <color name="teal_200">#95C062</color>
+    <color name="teal_700">#75a133</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_light">#5e5d5d</color>
+    <color name="red">#F13838</color>
+    <color name="background_button">#DDF4DD</color>
+    <color name="btn_check">#749F76</color>
+    <color name="cinzaopcao">#b5b5b5</color>
+    <color name="btn_date">#F5FBF5</color>
+    <color name="btn_cadastro">#E4F1E4</color>
+    <color name="btn_list">#D6D6D6</color>
+
+
+</resources>

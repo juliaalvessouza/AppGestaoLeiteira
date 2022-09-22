@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SEÇÃO I - INFORMAÇÕES GERAIS "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO II - COMO RECOLHEMOS OS DADOS DO USUÁRIO "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textVieww"
+        app:layout_constraintStart_toStartOf="@+id/textVieww"
+        app:layout_constraintTop_toBottomOf="@+id/textVieww" />
+
+    <TextView
+        android:id="@+id/textViewW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO III - QUAIS DADOS RECOLHEMOS"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
+    <TextView
+        android:id="@+id/textVVIiewW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO IV - POR QUANTO TEMPO OS DADOS FICAM ARMAZENADOS"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textVIIiewW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO V - COMPARTILHAMENTO DE DADOS"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/teExtVIIiewW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO VI - CONSENTIMENTO"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/tTeExtVIIiewW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEÇÃO VII - JURISDIÇÃO PARA RESOLUÇÃO DE CONFLITOS "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textVieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/textoum"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os dados são recolhidos nos atos de cadastros, seja do usuário ou dos demais cadastros presentes no aplicativo."
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os dados recolhidos do usuario são email e senha, e dos demais cadastros seguem os solicitados na realização dos cadastros."
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textViewW"
+        app:layout_constraintTop_toBottomOf="@+id/textViewW" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os dados são armazenados durante o período necessário para prestação de serviço ou o cumprimento das finalidades previstas no presente documento, conforme o disposto inciso I do artigo 15 da Lei 13.709/18"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textVVIiewW"
+        app:layout_constraintTop_toBottomOf="@+id/textVVIiewW" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Os dados aqui armazenados não são disponibilizados em outras plataformas."
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/textVIIiewW"
+        app:layout_constraintTop_toBottomOf="@+id/textVIIiewW" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ao utilizar os serviço e fornecer informações o usuário concorda com a Polítca de Privacidade, embasada na Lei de Proteção de Dados (Lei 13.7009/18). Caso haja dúvidas segue a disposição email : adm_viva_leite@org.com.br"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/teExtVIIiewW"
+        app:layout_constraintTop_toBottomOf="@+id/teExtVIIiewW" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Para a solução de controvérsias decorrentes do presente  instrumento será aplicado integralmente o Direito Brasileiro. Os eventuais litígios deverão ser apresentados no foro da comarca em que se encontra a sede da empresa."
+        app:layout_constraintStart_toStartOf="@+id/tTeExtVIIiewW"
+        app:layout_constraintTop_toBottomOf="@+id/tTeExtVIIiewW" />
+
+    <Button
+        android:id="@+id/btn_condordo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Concordo"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

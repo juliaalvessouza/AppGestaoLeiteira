@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutt"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:hint="Selecione o brinco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/input_brinco_cow_reproduction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="none"
+            tools:text="Selecione o brinco da vaca" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_date_cow_reproduction"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:text="Selecione a data nascimento"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black_light"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayoutt"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayoutt"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutt" />
+
+    <RadioGroup
+        android:id="@+id/rGReproduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17">
+
+        <RadioButton
+            android:id="@+id/rBReproductionCio"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Cio"
+            android:textColor="@color/black_light"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rBReproductionCob"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Cobertura"
+            android:textColor="@color/black_light"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rBReproductionIn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Inseminação"
+            android:textColor="@color/black_light"
+            android:textSize="18dp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="Tipo de Reprodução"
+        android:textColor="@color/black_light"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/btn_date_cow_reproduction"
+        app:layout_constraintTop_toBottomOf="@+id/btn_date_cow_reproduction" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
